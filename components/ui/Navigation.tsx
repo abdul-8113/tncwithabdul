@@ -54,7 +54,7 @@ export default function Navigation() {
         <Link
           href="/"
           onClick={() => setMobileOpen(false)}
-          className="font-mono text-base font-light text-[#e8e8e8] tracking-[0.35em] hover:text-[#00d4ff] transition-colors duration-300"
+          className="font-mono text-2xl md:text-xl font-bold md:font-semibold text-[#e8e8e8] tracking-[0.55em] md:tracking-[0.45em] hover:text-[#00d4ff] transition-colors duration-300 drop-shadow-[0_0_12px_rgba(0,212,255,0.45)] md:drop-shadow-[0_0_8px_rgba(0,212,255,0.3)]"
         >
           ABDUL
         </Link>
