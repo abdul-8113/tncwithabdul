@@ -89,17 +89,17 @@ export default function Navigation() {
           <motion.span
             animate={mobileOpen ? { rotate: 45, y: 7 } : { rotate: 0, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="block h-px bg-[#e8e8e8] origin-center"
+            className="block w-full h-[2px] bg-[#e8e8e8] origin-center"
           />
           <motion.span
             animate={mobileOpen ? { opacity: 0, scaleX: 0 } : { opacity: 1, scaleX: 1 }}
             transition={{ duration: 0.2 }}
-            className="block h-px bg-[#e8e8e8]"
+            className="block w-full h-[2px] bg-[#e8e8e8]"
           />
           <motion.span
             animate={mobileOpen ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="block h-px bg-[#e8e8e8] origin-center"
+            className="block w-full h-[2px] bg-[#e8e8e8] origin-center"
           />
         </button>
       </div>
